@@ -41,7 +41,7 @@ python face_detection_video.py
 ```
 ## Controls  
 
--q to quit the program/
+-q to quit the program\
 -space to pause/resume
 
 ## Output
