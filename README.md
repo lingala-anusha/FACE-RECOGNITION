@@ -38,10 +38,8 @@ video_path = 'path/to/your/video.mp4'
 python face_detection_video.py
 ```
 ## Controls     
-*q to quit the program
-*space to pause/resume
+>q to quit the program
+>space to pause/resume
 
-##Output
+## Output
 ![screenshot](https://drive.google.com/file/d/1zhUUAJ4UjiZKPGvUAWUs_jiOFbZBNQyW/view?usp=drive_link)
-
-
