@@ -33,21 +33,17 @@ bash
  python face_detection_video.py
 
 ##Controls
-Press 'q' to quit the video playback at any time
+-Press 'q' to quit the video playback at any time
 
 ##Customization
-You can adjust these parameters in the code:
-
-max_width and max_height in resize_frame() function
-
-Face detection parameters in detectMultiScale() (currently 1.3 scale factor and 5 minimum neighbors)
+-You can adjust these parameters in the code:
+-max_width and max_height in resize_frame() function
+-Face detection parameters in detectMultiScale() (currently 1.3 scale factor and 5 minimum neighbors)
 
 ##Notes
-The script will automatically exit when the video ends
-
-For better performance on HD videos, you might need to adjust the resize parameters
-
-The Haar Cascade classifier works best with frontal faces in good lighting conditions
+-The script will automatically exit when the video ends
+-For better performance on HD videos, you might need to adjust the resize parameters
+-The Haar Cascade classifier works best with frontal faces in good lighting conditions
 
 ##Output
-The script displays the video with detected faces marked by blue rectangles.
+-The script displays the video with detected faces marked by blue rectangles.
