@@ -29,8 +29,7 @@ The script automatically uses the default frontal face detector included with Op
 Update the video_path variable in the script to point to your video file
 
 ## Run the script:
-
-bash
+```bash
 python face_detection_video.py
 Controls
 Press 'q' to quit the video playback at any time
