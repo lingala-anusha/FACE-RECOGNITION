@@ -31,8 +31,7 @@ pip install opencv-python numpy
 ```
 ## Usage
 
-- Edit the script to specify your video path
-- video_path = 'path/to/your/video.mp4' 
+- Edit the script to specify your video path:video_path = 'path/to/your/video.mp4' 
 
 ## Run the detection script:
 ```bash
