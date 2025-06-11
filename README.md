@@ -31,7 +31,7 @@ pip install opencv-python numpy
 ```
 ## Usage
 
--Edit the script to specify your video path:
+Edit the script to specify your video path:
 python
 video_path = 'path/to/your/video.mp4' 
 
@@ -46,4 +46,4 @@ python face_detection_video.py
 
 ## Output
 
-Output![Screenshot](https://ibb.co/chyXNPh6).
+![Screenshot](https://ibb.co/chyXNPh6)
