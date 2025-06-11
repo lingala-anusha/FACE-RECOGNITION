@@ -31,18 +31,17 @@ pip install opencv-python numpy
 ## Usage
 Edit the script to specify your video path:
 python
-video_path = 'path/to/your/video.mp4'  # Update this line
+video_path = 'path/to/your/video.mp4' 
 
 ## Run the detection script:
 ```bash
 python face_detection_video.py
 ```
 ## Controls     
-Key	   Action
--q   	   Quit program
--Space 	Pause/Resume
+*q to quit the program
+*space to pause/resume
 
 ##Output
-[screenshot](https://drive.google.com/file/d/1zhUUAJ4UjiZKPGvUAWUs_jiOFbZBNQyW/view?usp=drive_link)
+![screenshot](https://drive.google.com/file/d/1zhUUAJ4UjiZKPGvUAWUs_jiOFbZBNQyW/view?usp=drive_link)
 
 
