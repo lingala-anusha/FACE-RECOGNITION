@@ -27,13 +27,22 @@ This Python script detects faces in a video file using OpenCV's Haar Cascade cla
 2. Install dependencies:
  ```bash
 pip install opencv-python numpy
-
-##Usage
+```
+## Usage
 Edit the script to specify your video path:
-
 python
 video_path = 'path/to/your/video.mp4'  # Update this line
-Run the detection script:
 
+## Run the detection script:
 ```bash
 python face_detection_video.py
+```
+## Controls     
+Key	   Action
+-q   	   Quit program
+-Space 	Pause/Resume
+
+##Output
+[screenshot](https://drive.google.com/file/d/1zhUUAJ4UjiZKPGvUAWUs_jiOFbZBNQyW/view?usp=drive_link)
+
+
