@@ -46,4 +46,4 @@ python face_detection_video.py
 
 ## Output
 
-![Screenshot](https://i.ibb.co/chyXNPh6/)
+![Screenshot](https://i.ibb.co/chyXNPh6/demo-screenshot.png)
