@@ -42,4 +42,4 @@ python face_detection_video.py
 >space to pause/resume
 
 ## Output
-![screenshot](https://drive.google.com/file/d/1zhUUAJ4UjiZKPGvUAWUs_jiOFbZBNQyW/view?usp=drive_link)
+![Screenshot](https://drive.google.com/file/d/1zhUUAJ4UjiZKPGvUAWUs_jiOFbZBNQyW/view?usp=drive_link)
