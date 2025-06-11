@@ -1,64 +1,46 @@
-┌───────────────────────────────────────────────────────────────────────────────┐
-│                                                                               │
-│   # Face Detection in Video                                                   │
-│                                                                               │
-│   This Python script detects faces in a video file using OpenCV's Haar        │
-│   Cascade classifier.                                                         │
-│                                                                               │
-│   ## Features                                                                 │
-│                                                                               │
-│   - Detects faces in video frames in real-time                                │
-│   - Maintains aspect ratio while resizing frames for display                  │
-│   - Handles large video files by resizing for optimal viewing                 │
-│   - Simple keyboard control (press 'q' to quit)                               │
-│                                                                               │
-│   ## Requirements                                                             │
-│                                                                               │
-│   - Python 3.x                                                                │
-│   - OpenCV (cv2)                                                              │
-│   - NumPy                                                                     │
-│                                                                               │
-│   ## Installation                                                             │
-│                                                                               │
-│   1. Install the required packages:                                           │
-│      ```bash                                                                  │
-│      pip install opencv-python numpy                                          │
-│      ```                                                                      │
-│                                                                               │
-│   2. Download the Haar Cascade XML file (included with OpenCV):               │
-│      - The script automatically uses the default frontal face detector        │
-│        included with OpenCV                                                   │
-│                                                                               │
-│   ## Usage                                                                    │
-│                                                                               │
-│   1. Update the `video_path` variable in the script to point to your video    │
-│      file                                                                    │
-│   2. Run the script:                                                          │
-│      ```bash                                                                  │
-│      python face_detection_video.py                                           │
-│      ```                                                                      │
-│                                                                               │
-│   ## Controls                                                                 │
-│                                                                               │
-│   - Press 'q' to quit the video playback at any time                          │
-│                                                                               │
-│   ## Customization                                                            │
-│                                                                               │
-│   You can adjust these parameters in the code:                                │
-│   - `max_width` and `max_height` in `resize_frame()` function                 │
-│   - Face detection parameters in `detectMultiScale()` (currently 1.3 scale    │
-│     factor and 5 minimum neighbors)                                           │
-│                                                                               │
-│   ## Notes                                                                    │
-│                                                                               │
-│   - The script will automatically exit when the video ends                    │
-│   - For better performance on HD videos, you might need to adjust the resize  │
-│     parameters                                                               │
-│   - The Haar Cascade classifier works best with frontal faces in good         │
-│     lighting conditions                                                       │
-│                                                                               │
-│   ## Output                                                                   │
-│                                                                               │
-│   The script displays the video with detected faces marked by blue rectangles.│
-│                                                                               │
-└───────────────────────────────────────────────────────────────────────────────┘
+# Face Detection in Video
+
+![OpenCV](https://img.shields.io/badge/OpenCV-5.3.0-green) ![Python](https://img.shields.io/badge/Python-3.8+-blue)
+
+This Python script detects faces in a video file using OpenCV's Haar Cascade classifier.
+
+## Features
+
+- Real-time face detection in video frames
+- Intelligent frame resizing while maintaining aspect ratio
+- Optimized for large video files (4K/HD supported)
+- Simple keyboard controls (press 'q' to quit)
+- Clear visual feedback with bounding boxes
+
+## Requirements
+
+- Python 3.8+
+- OpenCV (cv2) 4.5+
+- NumPy
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/face-detection-video.git
+   cd face-detection-video
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   Or install manually:
+
+ ```bash
+pip install opencv-python numpy
+
+##Usage
+
+Edit the script to specify your video path:
+video_path = 'path/to/your/video.mp4'  # Update this line
+Run the detection script:
+
+```bash
+    python face_detection_video.py
+Controls
+Key	Action
+q	Quit program
+Space	Pause/Resume
